@@ -198,6 +198,11 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 ![image](https://user-images.githubusercontent.com/19456350/87490246-31b0b800-c680-11ea-99d6-b3c58b256f1d.png)
 ![image](https://user-images.githubusercontent.com/19456350/87428160-e44f2f00-c61c-11ea-8315-e10101a46e70.png)
 
+## 동기 호출:
+
+책 대여 시 동기 호출을 통해 대여 시 결제를 처리, 대여 취소 시 결제 취소를 처리 한다.
+
+![image](https://user-images.githubusercontent.com/65518925/87504902-92e98300-c6a2-11ea-8b6b-262d9c7f84c4.png)
 
 ### 비동기호출과이벤트드리븐
 
