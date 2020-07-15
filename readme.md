@@ -8,15 +8,10 @@
 
 # 구현 Repository
 https://github.com/roy-junny/teamB_gateway
-
 https://github.com/roy-junny/teamB_payment
-
 https://github.com/roy-junny/teamB_bookrentalsystem
-
 https://github.com/roy-junny/teamB_bookmanagement
-
 https://github.com/roy-junny/teamB_user
-
 https://github.com/roy-junny/teamB_view
 
 # Table of contents
@@ -215,6 +210,7 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 비동기 호출로 아래 서비스들을 구현하여 특정 시스템의 장애로 이벤트를 받지 못한 경우 추후 시스템 복구 시 이벤트 수신하여 처리가 가능하다.
 
 - 비동기호출 구현 (책 등록하여 이벤트 publish --> rentalsystem에서 subscribe)
+
 ![image](https://user-images.githubusercontent.com/65518925/87506112-7dc22380-c6a5-11ea-92c5-45d7abe00f35.png)
 ![image](https://user-images.githubusercontent.com/65518925/87506149-96323e00-c6a5-11ea-96ae-5ac47b87e2b0.png)
 
