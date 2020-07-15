@@ -33,8 +33,7 @@ https://github.com/roy-junny/teamB_view
     - [비동기호출과 이벤트드리븐](#비동기호출과이벤트드리븐)
   - [운영](#운영)
     - [무정지 재배포](#무정지-재배포)
-    - [오토스케일 아웃](#오토스케일-아웃)
-    - [서킷브레이킹/장애격리](#서킷브레이킹-장애격리)
+    - [오토스케일/서킷브레이킹/장애격리](#오토스케일-서킷브레이킹-장애격리)
   - [신규 개발 조직의 추가](#신규-개발-조직의-추가)
 
 # 서비스 시나리오
@@ -232,9 +231,12 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 
 ![image](https://user-images.githubusercontent.com/19456350/87502740-5d8e6680-c69d-11ea-99c7-baf4c626e074.png)
 
--결제 취소 시
+- 대여취소 시 결제 취소 진행
 
-![image](https://user-images.githubusercontent.com/19456350/87502770-71d26380-c69d-11ea-9bc9-acc190ed87fb.png)
+![image](https://user-images.githubusercontent.com/65518925/87504541-bfe96600-c6a1-11ea-9f72-6154b26945df.png)
+![image](https://user-images.githubusercontent.com/65518925/87504589-e5766f80-c6a1-11ea-8c60-ae1d4717259f.png)
+![image](https://user-images.githubusercontent.com/65518925/87504619-f7f0a900-c6a1-11ea-8240-0b72dc431dc8.png)
+![image](https://user-images.githubusercontent.com/65518925/87504629-00e17a80-c6a2-11ea-985b-69baf640dc09.png)
 
 
 # 운영
@@ -247,7 +249,7 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 ![image](https://user-images.githubusercontent.com/19456350/87502224-0340d600-c69c-11ea-96fe-e1b95da5a694.png)
 
 
-### 오토스케일 아웃
+### 오토스케일/서킷브레이킹/장애격리
 결제서비스에 대해 CPU 사용량이 15프로 넘어가면 replica를 늘려주도록 설정한다 
 
 *siege를 통해 부하 생성
@@ -257,8 +259,6 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 ![image](https://user-images.githubusercontent.com/19456350/87494642-7f322280-c68a-11ea-880e-5a9b0ca40eb1.png)
 ![image](https://user-images.githubusercontent.com/19456350/87502987-0e950100-c69e-11ea-9c6c-5d19bf6b33c0.png)
 
-
-### 서킷 브레이킹 / 장애격리
 Hystrix 설정
 
 ![image](https://user-images.githubusercontent.com/19456350/87502987-0e950100-c69e-11ea-9c6c-5d19bf6b33c0.png)
