@@ -249,6 +249,7 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 
 ### 오토스케일 아웃
 결제서비스에 대해 CPU 사용량이 15프로 넘어가면 replica를 늘려주도록 설정한다 
+
 *siege를 통해 부하 생성
 ![image](https://user-images.githubusercontent.com/65518925/87504184-fbcffb80-c6a0-11ea-8720-9a2fed680643.png)
 
