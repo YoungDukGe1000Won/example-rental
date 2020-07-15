@@ -266,4 +266,5 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 
 Hystrix 설정
 
-![image](https://user-images.githubusercontent.com/19456350/87502987-0e950100-c69e-11ea-9c6c-5d19bf6b33c0.png)
+![image](https://user-images.githubusercontent.com/65518925/87504901-91b85600-c6a2-11ea-952d-e8b8a47988de.png)
+
