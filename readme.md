@@ -240,7 +240,9 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 # 운영
 
 ### 무정지 재배포
+
 모든 프로젝트의 readiness probe 및 liveness probe 설정 완료
+
 ![image](https://user-images.githubusercontent.com/19456350/87493224-4a709c00-c687-11ea-96c8-2926a5d4a177.png)
 ![image](https://user-images.githubusercontent.com/19456350/87502224-0340d600-c69c-11ea-96fe-e1b95da5a694.png)
 
