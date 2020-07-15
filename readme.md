@@ -174,7 +174,8 @@ Core Domain인 도서대여 서비스는 고객, 도서관리 서비스와 독�
 
 ### 헥사고날
 
-![image](https://user-images.githubusercontent.com/65518925/87505783-b4e40500-c6a4-11ea-89dd-6802edac656e.png)
+![image](https://user-images.githubusercontent.com/65518925/87505820-cfb67980-c6a4-11ea-9e21-c543506c4591.png)
+
 
     - Chris Richardson, MSA Patterns 참고하여 Inbound adaptor와 Outbound adaptor를 구분함
     - 호출관계에서 PubSub 과 Req/Resp 를 구분함
